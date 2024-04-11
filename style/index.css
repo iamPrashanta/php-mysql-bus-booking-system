@@ -1,0 +1,132 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* display: none; */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.container header {
+  display: flex;
+  width: 100vw;
+  height: 60px;
+  justify-content: space-between;
+  background: linear-gradient(to right, rgb(248, 248, 249), rgb(226, 247, 251));
+}
+.photo {
+  width: 60vw;
+  height: 90vh;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background: url(../images/25658683.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* z-index: 1; */
+}
+.logo {
+  font-size: 35px;
+  margin: 0px 0 0 100px;
+  font-weight: bold;
+  width: 90px;
+  background: url(../images/bus-logo-silhouette-vector-31350681-removebg-preview.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav {
+  display: flex;
+}
+.container header li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  font-size: 20px;
+  margin: 20px;
+  background: rgb(89, 194, 250);
+  border-radius: 20px;
+}
+
+.container header li {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.bg {
+  position: absolute;
+  width: 25vw;
+  height: auto;
+  min-height: 450px;
+  background: rgb(153, 239, 198);
+  opacity: 0.5;
+  right: 100px;
+  top: 150px;
+  border-radius: 10px;
+  /* filter: blur(2px); */
+  border: 2px solid white;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  box-shadow: 3px 3px 8px 0px black, -3px -3px 8px 0px black;
+  z-index: -1;
+}
+
+.container .card {
+  position: absolute;
+  width: 25vw;
+  height: 60vh;
+  background-color: none;
+  right: 100px;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.container .card h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+form {
+  margin: 10px 0 0 43px;
+}
+
+.lable {
+  font-size: 23px;
+  padding: 15px 10px 10px 0;
+  color: black;
+  font-weight: bold;
+}
+select {
+  height: 40px;
+  width: 300px;
+  max-width: 81%;
+  border-radius: 10px;
+}
+#month,
+#date,
+#year {
+  width: 70px;
+  max-width: 81%;
+}
+button {
+  width: 300px;
+  max-width: 81%;
+  height: 35px;
+  background: rgb(240, 96, 13);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-size: 20px;
+}

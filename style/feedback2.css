@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  background: linear-gradient(to right, rgb(248, 248, 249), rgb(226, 247, 251));
+  justify-content: end;
+}
+
+header li {
+  list-style: none;
+  margin: 25px;
+}
+
+header li a {
+  text-decoration: none;
+  padding: 5px 20px;
+  background: rgb(89, 194, 250);
+  border-radius: 15px;
+  color: black;
+  font-size: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 25px;
+  color: #fff;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+  background: url(../images/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: img 2s;
+}
+.photo {
+  width: 70vw;
+  height: 90vh;
+  position: absolute;
+  right: 0;
+  top: 10vh;
+  z-index: -3;
+  background: url(../images/red-bus-illustration_173474-60.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blur {
+  width: 100vw;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.196);
+  position: absolute;
+  z-index: -2;
+}
+
+@keyframes img {
+  0% {
+    width: 40px;
+    height: 40px;
+  }
+  100% {
+    width: 150px;
+    height: 150px;
+  }
+}

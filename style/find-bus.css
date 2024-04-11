@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* opacity: .5; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photo {
+  background: url(../images/find-bus.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -3;
+}
+
+.blur {
+  position: fixed;
+  /* position: te; */
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.322);
+  z-index: -2;
+}
+
+.background {
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.container #table_data {
+  width: 70vw;
+  height: 100vh;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.login {
+  position: absolute;
+  right: 20px;
+  list-style: none;
+  top: 10px;
+  background: rgb(89, 194, 250);
+  border-radius: 15px;
+  padding: 5px 13px;
+}
+
+.login a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.a {
+  margin-top: 0px;
+  font-size: 30px;
+}
+
+.b {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.c {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+table {
+  margin-top: 0px;
+  width: 70vw;
+  border-spacing: 0px 20px;
+}
+
+.tr-1 th {
+  font-size: 14px;
+}
+
+.tr-2 {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.461);
+}
+
+.tr-2 td {
+  color: #fff;
+  height: 60px;
+  font-size: 14px;
+}
+
+.btn a {
+  background: rgb(250, 129, 89);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 7px;
+  padding: 5px 15px;
+}
+
+table {
+  border-spacing: 5px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.container header {
+  display: flex;
+  width: 100vw;
+  height: 80px;
+  justify-content: space-between;
+  background: linear-gradient(to right, rgb(248, 248, 249), rgb(226, 247, 251));
+}
+.photo {
+  height: 90vh;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* z-index: 1; */
+}
+
+nav {
+  display: flex;
+}
+.container header li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  font-size: 20px;
+  margin: 20px;
+  background: rgb(89, 194, 250);
+  border-radius: 20px;
+}
+
+.container header li {
+  list-style: none;
+  margin-top: 30px;
+}

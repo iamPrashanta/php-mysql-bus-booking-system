@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../images/img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* display: none; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  background: linear-gradient(to right, rgb(248, 248, 249), rgb(226, 247, 251));
+  justify-content: end;
+}
+
+header li {
+  list-style: none;
+  margin: 25px;
+}
+
+header li a {
+  text-decoration: none;
+  padding: 5px 20px;
+  background: rgb(89, 194, 250);
+  border-radius: 15px;
+  color: black;
+  font-size: 20px;
+}
+
+.content {
+  width: 30vw;
+  height: 70vh;
+  border-radius: 10px;
+  margin-top: 10vh;
+  margin-left: 10vw;
+}
+
+table {
+  width: 100%;
+  height: auto;
+}
+
+table tr td {
+  height: 40px;
+  font-size: 16px;
+  color: black;
+  font-weight: bolder;
+}
+
+table tr td input {
+  padding: 0 70px;
+  height: 30px;
+  background: rgb(240, 96, 13);
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 30px;
+  border: none;
+  color: #fff;
+}
+
+table tr td select {
+  margin-right: 60px;
+  padding: 5px 30px;
+}
+
+.backgraound {
+  position: absolute;
+  width: 30vw;
+  height: auto;
+  min-height: 450px;
+  border: 1px solid black;
+  top: 15vh;
+  left: 7vw;
+  font-size: 16px;
+  border-radius: 10px;
+  background: rgb(153, 239, 198);
+  z-index: -1;
+  opacity: 0.7;
+  box-shadow: 3px 3px 8px 0px black, -3px -3px 8px 0px black;
+}
+
+.blur {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.226);
+  position: absolute;
+  z-index: -2;
+}

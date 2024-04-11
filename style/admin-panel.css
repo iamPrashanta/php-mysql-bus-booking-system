@@ -1,0 +1,62 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* display: none; */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.container header {
+  display: flex;
+  width: 100vw;
+  height: 80px;
+  justify-content: space-between;
+  background: linear-gradient(to right, rgb(248, 248, 249), rgb(226, 247, 251));
+}
+.photo {
+  width: 60vw;
+  height: 90vh;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background: url(../images/25658683.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* z-index: 1; */
+}
+.logo {
+  font-size: 35px;
+  margin: 0px 0 0 100px;
+  font-weight: bold;
+  width: 90px;
+  background: url(../images/bus-logo-silhouette-vector-31350681-removebg-preview.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav {
+  display: flex;
+}
+.container header li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  font-size: 20px;
+  margin: 20px;
+  background: rgb(89, 194, 250);
+  border-radius: 20px;
+}
+
+.container header li {
+  list-style: none;
+  margin-top: 30px;
+}

@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  background: linear-gradient(to right, rgb(248, 248, 249), rgb(226, 247, 251));
+  justify-content: end;
+}
+
+header li {
+  list-style: none;
+  margin: 25px;
+}
+
+header li a {
+  text-decoration: none;
+  padding: 5px 20px;
+  background: rgb(89, 194, 250);
+  border-radius: 15px;
+  color: black;
+  font-size: 20px;
+}
+
+.content {
+  width: 40vw;
+  height: 80vh;
+  border-radius: 10px;
+  margin-top: 2.5vh;
+  margin-left: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.background {
+  width: 40vw;
+  height: 85vh;
+  border-radius: 10px;
+  margin-top: 2.5vh;
+  margin-left: 4vw;
+  position: absolute;
+  background: rgb(153, 239, 198);
+  z-index: -1;
+  opacity: 0.5;
+  border: 1px solid black;
+  box-shadow: 5px 5px 10px 0px black, -5px -5px 10px 0px black;
+}
+
+.content h2 {
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+table {
+  margin-top: 30px;
+  width: 34vw;
+  border-spacing: 0px 20px;
+  margin: auto;
+}
+table tbody tr td {
+  font-size: 20px;
+  height: 55px;
+  font-weight: bold;
+}
+
+table tbody tr td input {
+  height: 28px;
+  width: 20vw;
+  border-radius: 10px;
+}
+
+#remark {
+  width: 35vw;
+  border-radius: 10px;
+  height: 20vh;
+  margin-top: -30px;
+  margin-left: 36px;
+}
+button {
+  margin-top: 20px;
+  margin-left: 13.5vw;
+  width: 220px;
+  height: 38px;
+  font-size: 20px;
+  background: rgb(240, 96, 13);
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+}
+
+.photo {
+  width: 70vw;
+  height: 90vh;
+  position: absolute;
+  right: 0;
+  top: 10vh;
+  z-index: -3;
+  background: url(../images/red-bus-illustration_173474-60.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blur {
+  width: 100vw;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.196);
+  position: absolute;
+  z-index: -2;
+}

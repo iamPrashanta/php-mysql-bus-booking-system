@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  background: linear-gradient(to right, rgb(248, 248, 249), rgb(226, 247, 251));
+  justify-content: end;
+}
+
+header li {
+  list-style: none;
+  margin: 25px;
+}
+
+header li a {
+  text-decoration: none;
+  padding: 5px 20px;
+  background: rgb(89, 194, 250);
+  border-radius: 15px;
+  color: black;
+  font-size: 20px;
+}
+
+.userform {
+  width: 25vw;
+  height: 20vh;
+  margin: 4vh 5vw 0 4vw;
+  border-radius: 10px;
+}
+
+table {
+  margin: 20px;
+  width: 25vw;
+}
+
+table label {
+  font-size: 20px;
+}
+
+#pnr_num {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#search_pnr {
+  width: 120px;
+  height: auto;
+  padding: 10px 20px;
+  margin: auto 115px;
+  background: rgb(240, 96, 13);
+  border: none;
+  color: aliceblue;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#cancel_btn {
+  padding: 10px 20px;
+  background: rgb(240, 96, 13);
+  border: none;
+  color: aliceblue;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.result {
+  margin: 5vh 0 0 4vw;
+  width: 25vw;
+  height: 60vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result table {
+  width: 22vw;
+  border-spacing: 0px 10px;
+  margin: 0 30px;
+}
+
+.result table td {
+  font-size: 18px;
+}
+
+.background {
+  width: 350px;
+  height: auto;
+  min-height: 130px;
+  margin: 4vh 5vw 0 4vw;
+  position: absolute;
+  border-radius: 10px;
+  z-index: -1;
+  opacity: 0.5;
+  background: rgb(153, 239, 198);
+  box-shadow: 5px 5px 10px 0px black, -5px -5px 10px 0px black;
+}
+
+.background1 {
+  width: 350px;
+  height: auto;
+  min-height: 540px;
+  border-radius: 10px;
+  position: absolute;
+  top: 39.2vh;
+  left: 4vw;
+  z-index: -1;
+  opacity: 0.5;
+  background: rgb(153, 239, 198);
+  box-shadow: 5px 5px 10px 0px black, -5px -5px 10px 0px black;
+}
+
+.photo {
+  width: 70vw;
+  height: auto;
+  min-height: 500px;
+  position: absolute;
+  top: 10vh;
+  right: 0;
+  background: url(../images/cartoon-school-bus-full-smiling-kids_1441-13691.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -10;
+}
