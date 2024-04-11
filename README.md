@@ -16,7 +16,7 @@ This is a bus booking system developed using PHP, MySQL, and JavaScript. It allo
 - Database: MySQL
 
 ## Installation
-1. Clone the repository: `git clone [https://github.com/your-username/bus-booking-system](https://github.com/iamPrashanta/php-mysql-bus-booking-system).git`
+1. Clone the repository: `git clone https://github.com/iamPrashanta/php-mysql-bus-booking-system.git`
 2. Import the database
 3. Configure the database connection
 4. Start the server and open the application in your browser
